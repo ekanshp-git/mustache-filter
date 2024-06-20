@@ -1,0 +1,20 @@
+h3 
+{
+    font-size: 30px;
+}
+
+.btn-success:hover 
+{
+    background-color: lime;
+}
+
+canvas {
+    animation-name: colour;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colour {
+from {box-shadow: 10px 10px 38px orange;}
+to {box-shadow: 10px 10px 38px violet;}
+}
